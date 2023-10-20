@@ -44,14 +44,14 @@ function App() {
                     <div className="w-full mb-1">
                         <InputBox
                             label="From"
-                            // amount={amount}
+                            amount={amount}
                             currencyOptions={options}
                             onCurrencyChange={(currency)=>
                               setFrom(currency)}
                             
                             selectCurrency={from}
                             onAmountChange={(amount)=> setAmount(amount)}
-                            value={amount}
+                            // value={amount}
                             
                         />
                     </div>
